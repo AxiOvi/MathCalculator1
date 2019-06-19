@@ -1,0 +1,50 @@
+table{
+    width: 300px;
+    margin: 100px auto;
+    background: #20d9f1;
+    border: none;
+    border-radius: 10px;
+    padding: 0px 20px 20px;
+}
+
+.heading{
+    color: black;
+    font-size: 130%;
+    text-align: center;
+}
+
+#input,#answer {
+    width: 250px;
+    height: 30px;
+    font-size: 200%;
+    text-align: right;
+    border: none;
+}
+
+#input {
+    border-radius: 5px 5px 0px 0px;
+    box-shadow: 2px 2px 2px black;
+    color: blueviolet;
+}
+
+#answer {
+    border-radius: 5px 5px 0px 0px;
+    box-shadow: 2px 2px 2px black;
+}
+
+input[type=button]{
+    height: 60px;
+    width: 60px;
+    font-size: 25px;
+    color: black;
+    background: #c8f6fc;
+    margin: 0.5px;
+    border-radius: 8px;
+    border: none;
+}
+
+input[type=button]:hover{
+    background: #4402e0;
+    cursor: pointer;
+}
+
